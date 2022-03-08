@@ -27,7 +27,7 @@ jQuery(function ($) {
         easing: "easeInOutExpo",
         updateHash: true,
         beforeStart: function () {
-            consolelog("begin scrolling")
+            console.log("begin scrolling")
         },
         onComplete: function () {
             console.log("done scrolling")
